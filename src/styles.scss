@@ -1,0 +1,112 @@
+body {
+  background-color: #acffb5a1
+}
+
+.button {
+  width: 162px;
+  height: 68px;
+  border-radius: 8px;
+  padding: 20px 40px 20px 40px;
+  color: #fff;
+  border: none;
+  margin: 10px;
+
+    &:hover {
+      cursor: pointer;
+      border: 1px solid black;
+    }
+}
+
+.button-1 {
+  background-color: #017187;
+}
+
+.button-2 {
+  background-color: #5c0187b5;
+}
+
+.button-3 {
+  background-color: #8711018f;
+}
+
+.button-4 {
+  background-color: #01870ea1;
+}
+
+.button-5 {
+  background-color: #e2cf22;
+}
+
+.button-6 {
+  background-color: #011e87;
+}
+
+.button-7 {
+  background-color: #18D5E1;
+}
+
+.box-wrapper {
+  max-width: 1100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  aspect-ratio: 300 / 300;
+  background-color: #1fc2ae;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 56px;
+  font-weight: 400;
+  font-family: 'Lucida Sans', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#box-1 {
+  grid-column: 1 / 1;
+  grid-row: 1 / 1;
+}
+
+
+#box-2 {
+  grid-column: 2 / 2;
+  grid-row: 1 / 1;
+}
+
+#box-3 {
+  grid-column: 3 / 3;
+  grid-row: 1 / 1;
+}
+
+#box-4 {
+  grid-column: 1 / 1;
+  grid-row: 2 / 2;
+}
+
+#box-5 {
+  grid-column: 2 / 2;
+  grid-row: 2 / 2;
+}
+
+#box-6 {
+  grid-column: 3 / 3;
+  grid-row: 2 / 2;
+}
+
+#input-text {
+  width: 200px;
+  height: 42px;
+  border-radius: 6px;
+  border: 2px solid #E5E7EB;
+  margin: 1rem;
+}
+
+#input-text-label {
+  margin: 1rem;
+  font-size: 24px;
+  font-weight: 400;
+}
