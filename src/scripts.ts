@@ -114,7 +114,7 @@ const startTimerInBox5 = () => {
     const timerInBox5Off = () => {
       count = 0;
       clearInterval(intervalBox5);
-      box5.innerText = "";
+      box5.innerText = "0";
     }
     
     box5.addEventListener("mouseout", timerInBox5Off);
